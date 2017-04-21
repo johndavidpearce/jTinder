@@ -70,7 +70,7 @@ body {
 }
 
 /* Image rotation */
-#tinderslide li.pane1 {
+#tinderslide li.pane:nth-child(1) {
     -webkit-transform: rotate(-1deg);
     -moz-transform: rotate(-1deg);
     -o-transform: rotate(-1deg);
@@ -78,7 +78,7 @@ body {
     transform: rotate(-1deg);
 }
 
-#tinderslide li.pane2 {
+#tinderslide li.pane:nth-child(2) {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
@@ -129,6 +129,11 @@ body {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
     -webkit-transform-style: preserve-3d;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 /* Action - buttons */
@@ -186,26 +191,21 @@ body {
   background: #f5f5f5;
 }
 
-/* jTinder images */
-#tinderslide .pane5 .img {
-    background: url("../img/pane/pane5.jpg") no-repeat scroll center center;
-    background-size: cover;
+/* jTinder sample images */
+#tinderslide.sample .pane:nth-child(5) .img {
+    background-image: url("../img/pane/pane5.jpg");
 }
-#tinderslide .pane4 .img {
-    background: url("../img/pane/pane4.jpg") no-repeat scroll center center;
-    background-size: cover;
+#tinderslide.sample .pane:nth-child(4) .img {
+    background-image: url("../img/pane/pane4.jpg");
 }
-#tinderslide .pane3 .img {
-    background: url("../img/pane/pane3.jpg") no-repeat scroll center center;
-    background-size: cover;
+#tinderslide.sample .pane:nth-child(3) .img {
+    background-image: url("../img/pane/pane3.jpg");
 }
-#tinderslide .pane2 .img {
-    background: url("../img/pane/pane2.jpg") no-repeat scroll center center;
-    background-size: cover;
+#tinderslide.sample .pane:nth-child(2) .img {
+    background-image: url("../img/pane/pane2.jpg");
 }
-#tinderslide .pane1 .img {
-    background: url("../img/pane/pane1.jpg") no-repeat scroll center center;
-    background-size: cover;
+#tinderslide.sample .pane:nth-child(1) .img {
+    background-image: url("../img/pane/pane1.jpg");
 }
 
 /* jTinder status text */
