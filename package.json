@@ -1,0 +1,23 @@
+{
+  "name": "jtinder",
+  "version": "1.0.0",
+  "description": "jTinder is a javascript library that makes rating people, products, images very easy and fast. It is optimized for mobile touch device but has also a desktop fallback.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://johndavidpearce@github.com/johndavidpearce/jTinder.git"
+  },
+  "keywords": [
+    "Tinder",
+    "animation"
+  ],
+  "author": "Dominik Weber",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/johndavidpearce/jTinder/issues"
+  },
+  "homepage": "https://github.com/johndavidpearce/jTinder#readme"
+}

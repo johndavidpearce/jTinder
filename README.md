@@ -6,6 +6,9 @@ Licensed under GPL Version 2.
 
 jTinder is a javascript library that makes rating people, products, images very easy and fast. It is optimized for mobile touch device but has also a desktop fallback.
 
+This is a minimal fork in order to make the library NPM-compatible and fix any basic bugs for a
+dynamic use case (i.e. support dynamic removal and addition of swipe items).
+
 jTinder Example
 -------------------------
 http://x5c.de/jtinder/
